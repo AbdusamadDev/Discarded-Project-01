@@ -1,0 +1,10 @@
+{% extends 'Homepage.html' %}
+
+{% block content %}
+  {% for data in object_list %}
+    <div>
+      {{ data.title }}
+    </div>
+    <hr>
+  {% endfor %}
+{% endblock %}

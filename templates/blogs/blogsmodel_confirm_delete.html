@@ -1,0 +1,9 @@
+{% extends 'Homepage.html' %}
+
+{% block content %}
+<form action="" method="post">
+  {% csrf_token %}
+  Are you wanna do this?
+  <input type="submit"/>
+</form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'Homepage.html' %}
+
+{% block content %}
+<div>
+    <img src="{{ object.image.url }}">
+    <br>
+    {{ object.title }}
+    <br>
+    {{ object.content }}
+</div>
+{% endblock %}
